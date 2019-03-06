@@ -1,7 +1,6 @@
-body {
+@-moz-document domain("app.gitkraken.com") {
+.board-bg {
     background-color: black;
 }
 
-.board-bg {
-    background-color: black;
 }
