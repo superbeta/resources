@@ -1,0 +1,196 @@
+@-moz-document domain("slack.com") {
+body {
+    background: black;
+    color: silver;
+}
+
+a,
+a:link,
+a:visited {
+    color: #1588e1;
+}
+
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+    background: #00000000;
+    border: 1px solid #04045b;
+    box-shadow: none;
+}
+
+.channel_header {
+    background: #00000000;
+    box-shadow: inset 1px 0 0 0 #075288;
+    color: cyan;
+}
+
+.channel_header * {
+    color: cyan;
+}
+
+#channel_title {
+    color: #349de8;
+}
+
+#edit_topic_inner:not(.cannot_edit_topic):before {
+    background: #00000000;
+}
+.sk_fill_blue_bg {
+    background-color: #02364db0;
+}
+
+.ql-editor.ql-blank {
+    background: black;
+}
+
+.c-message_list__day_divider__label__pill {
+    background: #075288;
+    color: silver;
+}
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before,
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+    background: #00000000;
+}
+#col_messages {
+    box-shadow: inset 1px 0 0 0 #075288;
+}
+
+.c-message_list__day_divider__line {
+    border-top: 1px solid #075288;
+}
+
+.c-virtual_list__scroll_container {
+    background: black;
+}
+
+#team_menu {
+    background: #043948;
+    border-bottom: 1px solid #075288;
+}
+
+.p-flexpane_header {
+    background: #082f62;
+    border-bottom: 1px solid #164860;
+    color: silver;
+}
+
+.flex_pane_showing #col_flex {
+    border-left: 1px solid #164860;
+}
+.p-threads_flexpane__header_channel_name {
+    color: Grey;
+}
+
+.panel.active {
+    background: black;
+}
+
+.p-threads_footer__input .p-message_input_field {
+    background: #00000000;
+    border: 2px solid blue;
+    color: silver;
+}
+
+.p-threads_footer__input .p-message_input_field.focus {
+    border-color: blue;
+}
+
+.p-threads_footer__input--legacy .p-message_input_file_button.p-message_input_file_button--active,
+.p-threads_footer__input--legacy .p-message_input_file_button {
+    background: #00000000;
+    color: #15d25a;
+    border: 1px solid blue;
+}
+
+.p-threads_footer__input--legacy .p-message_input_file_button.p-message_input_file_button--active,
+.p-threads_footer__input--legacy .p-message_input_file_button:hover {
+    background: #00000000;
+    color: #15d25a;
+    border: 1px solid blue;
+}
+
+.c-message_kit__file__meta__text {
+    color: #00e9f5;
+    font-size: 15px;
+    text-shadow: 3px 3px 12px #7c4af7;
+}
+
+
+[lang] .c-texty_input .ql-editor,
+[lang] .c-texty_input .ql-placeholder {
+    color: grey;
+}
+
+#footer {
+    background: black;
+    box-shadow: inset 1px 0 0 0 #075288;
+}
+
+#msg_input {
+    background: #141415;
+    color: silver;
+    border: 3px solid blue;
+    box-shadow: 2px 2px 15px #0b4e95;
+    ;
+}
+
+#msg_input.focus,
+#msg_input:focus {
+    border: 3px solid blue;
+    box-shadow: 2px 2px 15px #04376c;
+}
+
+#primary_file_button {
+    background: #00000000
+}
+
+.texty_legacy .ql-placeholder {
+    color: DarkGrey;
+}
+
+.p-channel_sidebar__name {
+    text-shadow: 2px 2px 10px cyan;
+}
+
+.c-message__body {
+    color: silver;
+}
+
+.c-message_attachment {
+    color: grey;
+}
+
+.c-message__sender {
+    color: #23c6df;
+    font-weight: 900;
+}
+￼ .p-channel_sidebar__channel--selected,
+.p-channel_sidebar__channel--selected:hover,
+.p-channel_sidebar__link--selected,
+.p-channel_sidebar__link--selected:hover {
+    color: LightGrey;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px #6615b9;
+}
+
+.p-channel_sidebar {
+    background: #01030b;
+}
+
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
+.p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name,
+.p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
+.p-channel_sidebar__section_heading_label--clickable:hover,
+.p-channel_sidebar__section_heading_label--unreads,
+.p-channel_sidebar__quickswitcher:hover {
+    color: #e0e807;
+    text-shadow: 2px 2px 10px #bf1212;
+}
+
+.c-message--light .c-message__sender .c-message__sender_link {
+    color: #31c6ff !important;
+}
+
+.c-message--hover {
+    background: #000524 !important;
+}
+}
