@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+._3Laht, .o64aR {
+    background-color: #01111c;
+}
+
+nav {
+    max-height: 5px;
+}
+
+nav * {
+    visibility: hidden;
+    background-color: #011122c2 !important;
+}
+
+nav:hover * {
+    max-height: 200px;
+    visibility: visible;
+}
+
+.v9tJq {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 5px;
+    /* max-width: 935px; */
+    width: 100%;
+}
